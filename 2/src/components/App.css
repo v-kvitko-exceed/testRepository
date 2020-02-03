@@ -1,0 +1,201 @@
+
+html {
+    background-color: #282c34;
+}
+
+#root {
+    max-width: 800px;
+    height:100%;
+    background-color: #fff;
+    border-radius: 5px; 
+    position: absolute;
+    top: 0;
+    right: 0;
+    top: 10%;
+    left: 0;
+    margin: auto;
+    flex-direction: row;
+}
+
+
+
+.fr {
+    min-width: 400px;
+    max-width: 600px;
+    position: absolute;
+    right: 0;
+    left: 0;
+    margin: auto;
+}
+
+.td {
+    text-align: center;
+    color: rgb(206, 180, 180);
+}
+.tod {
+    font-size: 100px;
+}
+
+.inputForm {
+    min-width: 400px;
+    max-width: 600px;
+    height: 40px;
+    margin-bottom: 6px;
+    padding: 0;
+   
+    padding-inline-start: 0;
+    
+}
+
+ul { padding: 0; } 
+
+button {
+    background-color: white;
+    border: 1px solid  #aaa;
+    border-radius:  2px;
+    margin: 5px;
+    font-size: 15px;
+    color: grey;
+}
+
+.clcompl {
+    margin-left: 60px;
+}
+
+.inputText {
+    width: 598px;
+    
+    height: 40px;
+    border-radius: 2px;
+    font-size: larger;
+}
+.input {
+    border: 1px solid  #aaa;
+    
+    /* max-width: 600px; */
+    height: 40px;
+    border-radius: 0px;
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 0px;
+    text-transform: uppercase;
+    
+}
+
+
+.text {
+    width: 89%;
+}
+
+ .delBtn {
+    width: 15px;
+    height: 15px;
+    margin-right: auto;
+    
+
+} 
+
+.t {
+    min-width: 400px;
+    max-width: 600px;
+    margin-top: 0px;
+    border: 1px solid  #aaa;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 0px;
+}
+.count {
+    font-size: 15px;
+    width: 100px;
+    height: 40px;
+    /* display: block; */
+    position: absolute;
+    margin-top: 11px;
+    margin-left:10px;
+    color: grey;
+}
+
+
+.bt {
+    height: 40px;
+    display: block;
+    position: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+     margin-left:  200px;
+    background-color: #fff;
+}
+
+   
+/* 
+display: flex;
+    flex-direction: row;
+    align-items: center; */
+
+
+    .option-input {
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        -ms-appearance: none;
+        -o-appearance: none;
+        appearance: none;
+        position: relative;
+         top: 2px;
+        right: 0;
+        bottom: 0;
+        left: 5px;
+        height: 20px;
+        width: 20px;
+        transition: all 0.15s ease-out 0s;
+        background: #cbd1d8;
+        border: none;
+        color: #fff;
+        cursor: pointer;
+        display: inline-block;
+        margin-right: 0.5rem;
+        outline: none;
+        position: relative;
+        
+      }
+      .option-input:hover {
+        background: #9faab7;
+      }
+      .option-input:checked {
+        background: #40e0d0;
+      }
+      .option-input:checked::before {
+        height: 20px;
+        width: 20px;
+        content: '✔';
+        margin-left: 2px; 
+        font-size: 20px;
+        line-height: 20px;
+      }
+      .option-input:checked::after {
+        -webkit-animation: click-wave 0.8s;
+        -moz-animation: click-wave 0.8s;
+        animation: click-wave 0.8s;
+        background: #40e0d0;
+        content: '';
+       
+      }
+      .option-input.radio {
+        border-radius: 50%;
+      }
+      .option-input.radio::after {
+        border-radius: 50%;
+      }
+      
+
+      .toast {
+        position: "top-center";
+        autoClose: 5000;
+        hideProgressBar: false;
+        closeOnClick: true;
+        pauseOnHover: true;
+        draggable: true;
+        }
